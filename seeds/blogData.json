@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Tech News",
+    "description": "New from the world of tech"
+  },
+  {
+    "name": "Tech Reviews",
+    "description": "Reviews of new hardware"
+  },
+  {
+    "name": "Tech Takes",
+    "description": "Editorials from the Tech World"
+  },
+  {
+    "name": "Tech Talk",
+    "description": "Tech podcasts?"
+  },
+  {
+    "name": "Tech Triumphs",
+    "description": "The highest highs of the tech world"
+  },
+  {
+    "name": "Tech Trough",
+    "description": "The lowest lows of the tech world"
+  }
+]
