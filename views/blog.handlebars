@@ -1,0 +1,21 @@
+<div class="text-center">
+  <h2>{{name}}</h2>
+  <p>{{description}}</p>
+  <p>Created by {{user.name}} on {{format_date createdAt}}</p>
+  
+{{#if logged_in}}
+<form class="comment-form">
+  <div>
+    <textarea name="comment-body"></textarea>
+  </div>
+  <div>
+    <button type="submit">Add Comment</button>
+  </div>
+</form>
+{{/if}}
+
+{{#each blog.comment as |comment|}}
+{{> comments}}
+{{/each}}
+
+</div>
