@@ -1,0 +1,32 @@
+header, .blog:not(:last-child) {
+  border-bottom: 1px solid #ccc;
+}
+
+header {
+  background-color: teal;
+  color: white
+}
+
+header a {
+  color: white
+}
+
+.no-button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+  font-size: 100%;
+}
+
+.no-button:hover {
+  text-decoration: underline;
+}
+
+.dollar-amount {
+  color: #056605;
+  font-weight: bold;
+  margin-left: -5px;
+}
